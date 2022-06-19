@@ -1,0 +1,67 @@
+#portfolio-cover::before{
+    background: url(/img/burning\ effect\ 2.jpg)no-repeat center/cover;
+}
+
+.portfolio-divider{
+    width: 20%;
+} 
+.portfolio-menu{
+    margin: 0rem auto;
+    margin-top: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--nav_bg_color);
+    color: var(--basic_color);
+}
+.portfolio-menu ul{
+    display: flex;
+    justify-content: center;
+    padding: .6rem 0;
+}
+.portfolio-menu li{
+    margin: 0px 2rem;
+    list-style: none;
+    font-family: var(--nav_font);
+    font-size: 1.4rem;
+    transition: all .4s ease-in-out;
+}
+.portfolio-menu li:hover{
+    transform: scale(1.15);
+}
+.portfolio-menu-divider{
+    margin: 0;
+}
+
+/* MASONRY START  */
+
+  .my-masonry-grid-item {
+    margin: 0px 7px 10px 7px;
+  }
+  @media screen and (max-width: 767px) {
+    .container, .category-title {
+        width: 92%;
+    }
+  }
+/* MASONRY END  */
+
+
+ 
+
+.gallery-img{
+    width: 100%;
+}
+
+
+.main{
+padding:2rem 0;
+
+}
+#manipulation{
+    background-color: var(--bg_color_1);
+}
+#photography{
+    background-color: var(--bg_color_2);
+}
+#banner{
+    background-color: var(--bg_color_1);
+}

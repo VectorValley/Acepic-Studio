@@ -1,0 +1,139 @@
+body::before{
+    background: url(/img/lantern-6826687_1920.jpg)no-repeat center/cover;
+}
+
+#about-cover::before{
+    background: url(/img/about_us_cover.jpg)no-repeat center/cover;
+}
+#about-cover{
+    background: rgba(0, 0, 0, 0.521);
+}
+.about-divider{
+    width: 20%;
+}
+
+#mission{
+    background-color: var(--bg_color_1);
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+.mission-img{
+    width: 40%;
+    margin: .5rem;
+}
+.mission-img img{
+    width: 100%;
+}
+.mission-text{
+    width: 40%;
+    padding: 1rem;
+    margin: .5rem;
+}
+.mission-text h2{
+    padding: 0;
+}
+
+.mission-divider{
+    margin: 1rem 0;
+}
+.mission-text p{
+    color: var(--basic_color);
+    font-family: var(--font_1);
+    padding: .3rem 1rem;
+}
+
+/* <!-- Quote Start --> */
+#quote{
+    background-color: var(--bg_color_2);
+    padding: 2rem 0;
+    padding-top: 5rem;
+
+    
+}
+#quote h1{
+    color: var(--basic_color);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+/* Team Section Start */
+#team{
+    background-color: var(--bg_color_1);
+    width: 100%;
+}
+.team-heading{
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 3rem;
+}
+.team-divider{
+    width: 10%;
+    margin-bottom: 3rem;
+}
+.team-conatainer{
+    background-color: var(--bg_color_2);
+    justify-content: space-around;
+    align-items: center;
+}
+.team-member{
+    width: 30%;
+    text-align: center;
+    margin: 1rem;
+    font-family: var(--font_1);
+    color: var(--basic_color);
+    padding: 1rem;
+    padding-top: 0;
+    box-shadow: 0px 0px 10px  var(--bg_color_1);
+    transition: all 0.4s ease-in-out;
+}
+.team-member:hover{
+    /* background-color: var(--bg_color_1); */
+    /* transform: scale(1.04); */
+}
+.menber-img{
+    width: 90%;
+    border-radius: 40rem;
+}
+.member-name{
+    margin-top: 2rem;
+    font-size: 1.5em;
+    transition: all 0.4s ease-in-out;
+}
+.member-name:hover{
+    color: var(--sec_color);
+}
+.member-designation{
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    color: rgb(194, 194, 194);
+}
+.member-contact{
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+
+
+.icon{
+    width: 1.5rem;
+    padding: .3rem;
+    border-radius: 20rem;
+    transition: all 0.4s ease-in-out;
+}
+.icon:hover{
+    background-color: var(--sec_color);
+}
+
+.team-member1{
+    
+}
+.team-member2{
+    display: none;
+}
+.team-member3{
+    display: none;
+}

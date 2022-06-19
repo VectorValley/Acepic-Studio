@@ -1,0 +1,68 @@
+#contact-cover::before{
+    background: url(/img/contact.jpg)no-repeat center/cover;
+    
+}
+#contact-cover{
+    background: rgba(0, 0, 0, 0.521);
+}
+.contact-divider{
+    width: 20%;
+}
+.contact-heading{
+    background-color: var(--bg_color_1);
+}
+.contact-heading h2{
+    font-size: 2rem;
+}
+.contact-heading .divider{
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+#contact{
+    min-height: 100vh;
+    background-color: var(--bg_color_1);
+}
+.container {
+    align-items: center;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    color: var(--basic_color);
+    font-family: var(--font_3);
+    font-size: 1rem;
+    padding: 3rem 0;
+    padding-top: 1rem;
+}
+
+.container form label,
+.container form textarea,
+.container form input{
+    padding: 0.6rem 0.4rem;
+    outline: none;
+    border-radius: 5px;
+}
+.container form label{
+    margin-top: .7rem;
+}
+
+.container form .btn{
+    margin: 0 auto;
+    margin-top: .7rem;
+    padding: 0.5rem 2.5rem;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    font-family: var(--nav_font);
+    border: 1px solid var(--bg_color_1);
+    transition: all .3s ease-in-out;
+}
+.container form .btn:hover{
+    transform: scale(1.1);
+}
