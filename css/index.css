@@ -1,6 +1,6 @@
 
 body::before{
-    background: url(/img/the\ fox.png)no-repeat center/cover;
+    background: url(/img/the_fox.png)no-repeat center/cover;
     /* background: url(https://www.youtube.com/watch?v=35npVaFGHMY); */
     content: "";
     position: fixed;
