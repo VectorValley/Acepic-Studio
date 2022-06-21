@@ -1,6 +1,6 @@
 
 body::before{
-    background: url(/img/the_fox.png)no-repeat center/cover;
+    background: url(../img/the_fox.png)no-repeat center/cover;
     /* background: url(https://www.youtube.com/watch?v=35npVaFGHMY); */
     content: "";
     position: fixed;
@@ -12,7 +12,7 @@ body::before{
     opacity: 0.9;
 }
 #cover::before{
-    background: url(/img/cover.jpg)no-repeat center/cover;
+    background: url(../img/cover.jpg)no-repeat center/cover;
     content: "";
     position: absolute;
     top: 4rem;

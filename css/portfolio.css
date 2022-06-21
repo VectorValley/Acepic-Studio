@@ -1,5 +1,5 @@
 #portfolio-cover::before{
-    background: url(/img/burning_effect2.jpg)no-repeat center/cover;
+    background: url(../img/burning_effect2.jpg)no-repeat center/cover;
 }
 
 .portfolio-divider{
