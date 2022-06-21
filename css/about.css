@@ -1,9 +1,9 @@
 body::before{
-    background: url(img/lantern-6826687_1920.jpg)no-repeat center/cover;
+    background: url(/img/lantern-6826687_1920.jpg)no-repeat center/cover;
 }
 
 #about-cover::before{
-    background: url(img/about_us_cover.jpg)no-repeat center/cover;
+    background: url(/img/about_us_cover.jpg)no-repeat center/cover;
 }
 #about-cover{
     background: rgba(0, 0, 0, 0.521);

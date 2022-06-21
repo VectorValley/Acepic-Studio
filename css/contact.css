@@ -1,5 +1,5 @@
 #contact-cover::before{
-    background: url(img/contact.jpg)no-repeat center/cover;
+    background: url(/img/contact.jpg)no-repeat center/cover;
     
 }
 #contact-cover{

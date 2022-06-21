@@ -1,5 +1,5 @@
 #product-cover::before{
-    background: url(img/product.jpg)no-repeat center/cover;
+    background: url(/img/product.jpg)no-repeat center/cover;
 }
 
 .product-divider{
